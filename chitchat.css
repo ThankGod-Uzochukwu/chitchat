@@ -1,0 +1,112 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+img {
+    display: block;
+    margin-left: 250px;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 200px;
+    border: 3px solid #d8d2d2;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+}
+
+.chit {
+    display: flex;
+    justify-content: center;
+    margin: -170px -300px 0px 350px;
+    padding: 0px 200px 0px 200px;
+    width: 400px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+a {
+    background-color: #4ca9fa;
+    border-radius: 5px;
+    margin: 0px 0px 200px 200px;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: purple;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px -20px -300px;
+    padding: 0px 20px 0px 20px;
+    font-size: 40px;
+    color: #4ca9fa;
+}
+
+.book {
+    font-size: 30px;
+    margin: -150px -300px 0px 800px;
+}
+
+input {
+    height: 20px;
+    border: 2px solid #c5c2c2;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #43a7ff;
+    width: 200px;
+    border: 2px solid #c5c2c2;
+    border-radius: 10px;
+    transition: width 0.5s;
+}
+
+.btn1 {
+    background-color: #13fc13e1;
+    border: 2px solid #c5c2c2;
+    width: 200px;
+    border-radius: 10px;
+    transition: width 0.5s;
+}
+
+button {
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+@media only screen and (max-width:700px) {
+    body {
+        background-color: whitesmoke;
+    }
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        color: #4ca9fa;
+        margin-left: 350px;
+    }
+    form {
+        display: grid;
+        justify-content: center;
+    }
+    .book {
+        margin: 0px 90px 0px 20px;
+        font-size: 30px;
+    }
+    input {
+        margin: -10px;
+    }
+}
